@@ -1,3 +1,5 @@
+slackSend channel: "#controller", color: "danger", message: "Testing Jenkinsfile Slack Notifications!"
+
 node('windows') {
 	def gopath = pwd() + "\\gopath"
 	env.GOPATH = gopath
